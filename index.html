@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/chatgpt-icon.png" type="image/x-icon">
+    <title>ChatGPT - Completions</title>
+</head>
+
+<body>
+    <main>
+        <div id="header">
+            <img src="img/chatgpt-icon.png" alt="">
+            <h1>ChatGPT</h1>
+        </div>
+
+        <div id="content">
+            <div class="initial-examples">
+                <div class="item-wrapper">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h3>Examples</h3>
+                    <div class="item-content-wrapper">
+                        <div class="item-content">
+                            "Explain quantum computing in simple terms"
+                        </div>
+                    </div>
+                    <div class="item-content-wrapper">
+                        <div class="item-content">
+                            "What is the latest version of iOS for iPhones?"
+                        </div>
+                    </div>
+                    <div class="item-content-wrapper">
+                        <div class="item-content">
+                            "How does blockchain technology work"
+                        </div>
+                    </div>
+                </div>
+                <div class="item-wrapper">
+                    <i class="fa-solid fa-bolt"></i>
+                    <h3>Capabilities</h3>
+                    <div class="item-content-wrapper">
+                        <div class="item-content">
+                            "Remembers what user said earlier in the conversation"
+                        </div>
+                    </div>
+                    <div class="item-content-wrapper">
+                        <div class="item-content">
+                            "Allows user to provide follow-up corrections"
+                        </div>
+                    </div>
+                    <div class="item-content-wrapper">
+                        <div class="item-content">
+                            "Trained to decline inappropriate requests"
+                        </div>
+                    </div>
+                </div>
+                <div class="item-wrapper">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <h3>Limitations</h3>
+                    <div class="item-content-wrapper">
+                        <div class="item-content">
+                            "May occasionally generate incorrect information"
+                        </div>
+                    </div>
+                    <div class="item-content-wrapper">
+                        <div class="item-content">
+                            "May occasionally produce harmful instructions"
+                        </div>
+                    </div>
+                    <div class="item-content-wrapper">
+                        <div class="item-content">
+                            "Limited knowledge of world and events after 2021"
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="bottom-container">
+            <div id="search-container">
+                <input id="search-input" type="text" placeholder="Send a message.">
+                <button onclick="render()"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+
+            <span class="made-by">Made by
+                <strong>
+                    <a href="https://github.com/Lucas98Fernando" target="_blank">
+                        Lucas Fernando
+                    </a>
+                </strong>
+                .
+            </span>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
